@@ -1,6 +1,6 @@
 <?php
 
-require_once('cfg/cfg.php');
+require_once('config/db_params.php');
 
 class Database
 {
