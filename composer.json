@@ -1,0 +1,25 @@
+{
+    "name": "avcosh/shop",
+    "description": "shop - test task",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Avcosh",
+            "email": "ksenon-spb@mail.ru"
+        },
+        {
+            "name": "Sergey Kayachkov",
+            "email": "ksenon-spb@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Shop\\" : "app/"
+        }
+    }
+}

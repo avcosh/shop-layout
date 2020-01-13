@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+IndexIgnore */*
+
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} !^/(public)
+RewriteRule (.*) /public/$1
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . /public/index.php
+
+
