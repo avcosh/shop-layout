@@ -1,5 +1,8 @@
 <?php
 namespace Shop\entities;
+/*
+ * Model for working with Product
+ */
 use Shop\components\Db;
 use Shop\interfaces\ProductInterface;
 

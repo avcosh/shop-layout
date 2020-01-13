@@ -1,15 +1,17 @@
 <?php
 namespace Shop\interfaces;
-
+/**
+ * Class defines methods for working with entities
+ */
 
 abstract class AppClass 
 {
-    public function getProduct(ProductInterface $product)
+    protected function getProduct(ProductInterface $product)
     {
         return new $product();   
     }
     
-    public function getCart(CartInterface $cart)
+    protected function getCart(CartInterface $cart)
     {
         return new $cart();
     }

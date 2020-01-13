@@ -1,4 +1,5 @@
 <?php
+// Define constants
 define('DB_TYPE', 'mysql');
 define('HOST', 'localhost');
 define('DBNAME', 'shop');

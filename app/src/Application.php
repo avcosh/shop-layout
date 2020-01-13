@@ -1,7 +1,9 @@
 <?php
 namespace Shop\src;
+/**
+ * Main Controller
+ */
 
-//use Shop\entities\Product;
 use Shop\interfaces\AppClass;
 
 class Application extends AppClass
@@ -19,6 +21,9 @@ class Application extends AppClass
     
     public function run($url)
     {
+        /*
+         * define action
+         */
         switch($url){
             case '':
               return $this->index();

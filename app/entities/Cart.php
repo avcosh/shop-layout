@@ -1,5 +1,8 @@
 <?php
 namespace Shop\entities;
+/*
+ * Model for working with Cart
+ */
 use Shop\interfaces\CartInterface;
 use Shop\components\Db;
 
